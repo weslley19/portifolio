@@ -1,4 +1,3 @@
-import SiteMenu from "@/components/menu/site";
 import PageTitle from "@/components/page-title";
 import ToggleTheme from "@/components/toggle-theme";
 import { ChevronLeftIcon, ChevronRightIcon, SlashIcon } from "lucide-react"

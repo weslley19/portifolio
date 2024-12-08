@@ -19,7 +19,7 @@ export default function Blog() {
 
       <div className="grid grid-cols-4 gap-6">
         {posts.map(post => (
-          <Post data={post} />
+          <Post key={post.id} data={post} />
         ))}
       </div>
     </div>
