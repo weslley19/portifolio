@@ -23,14 +23,14 @@ export default async function Post({ params }: { params: Promise<{ id: string }>
             <div className="w-10 h-10 rounded-full bg-red-500"></div>
             <p className="text-xs font-semibold">{post.author}</p>
           </div>
-          <hr className="my-8 border-[#e5e7eb]" />
+          <hr className="my-8 border-[#e5e7eb] w-[90%]" />
           <div className="flex flex-col justify-center text-gray-500">
             <p className="text-xs">TAGS</p>
             <div className="flex gap-4 text-[#d5418b] text-sm">
               {post.tags.map((tag, index) => <span key={index} className="transition-colors hover:text-[#f160a9]">{tag}</span>)}
             </div>
           </div>
-          <hr className="my-8 border-[#e5e7eb]" />
+          <hr className="my-8 border-[#e5e7eb] w-[90%]" />
           <Link href="/blog" className="flex items-center gap-2 text-[#d5418b] transition-colors hover:text-[#f160a9]">
             <MoveLeftIcon />
             Voltar ao Blog
